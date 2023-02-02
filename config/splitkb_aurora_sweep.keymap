@@ -63,6 +63,8 @@
             &kp Z    &kp X    &kp C             &kp V          &kp B        &kp N         &kp M  &kp COMMA  &kp DOT                  &kp SLASH
                                      &kp LEFT_CONTROL  &kp BACKSPACE  &lt 7 SPACE  &kp LEFT_ALT
             >;
+
+            sensor-bindings = <&inc_dec_kp A A &inc_dec_kp A A>;
         };
 
         Mouse_Actions {
@@ -73,7 +75,7 @@
                          &trans  &trans  &trans  &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp  undefined>;
+            sensor-bindings = <&inc_dec_kp A A &inc_dec_kp A A>;
         };
 
         Navigation {
@@ -83,6 +85,8 @@
    &trans  &kp HOME  &kp PAGE_DOWN    &kp END  &trans  &trans        &trans  &trans              &trans  &trans
                                        &trans  &trans  &trans        &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp A A &inc_dec_kp A A>;
         };
 
         Symbols__1 {
@@ -92,6 +96,8 @@
     &trans    &trans    &trans  &trans  &trans     &trans  &kp MINUS   &kp BSLH          &kp GRAVE      &trans
                                 &trans  &trans     &trans     &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp A A &inc_dec_kp A A>;
         };
 
         Symbols__2 {
@@ -101,6 +107,8 @@
          &trans         &kp EXCL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &trans  &trans        &trans     &trans    &trans       &trans
                                                          &kp C_VOL_UP    &trans  &trans  &kp C_VOL_DN
             >;
+
+            sensor-bindings = <&inc_dec_kp A A &inc_dec_kp A A>;
         };
 
         Function_keys {
@@ -110,6 +118,8 @@
  &trans  &trans                     &trans  &trans  &trans  &trans  &kp F1  &kp F2  &kp F3  &kp F12
                                             &trans  &trans  &trans  &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp A A &inc_dec_kp A A>;
         };
 
         Numpad {
@@ -119,6 +129,8 @@
     &kp ASTRK  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &trans  &trans  &trans  &trans  &trans
                                                  &trans     &trans  &trans  &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp A A &inc_dec_kp A A>;
         };
 
         Misc {
@@ -128,6 +140,8 @@
  &trans       &trans     &trans   &kp EXCL   &trans  &trans        &trans  &mt RIGHT_ALT COMMA  &mt RIGHT_CONTROL DOT  &kp C_RESET
                                     &trans  &kp TAB   &none        &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp A A &inc_dec_kp A A>;
         };
     };
 };
